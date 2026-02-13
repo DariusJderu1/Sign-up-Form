@@ -35,33 +35,37 @@
             <form action="https://httpbin.org/post" method="post">
 
                 <div>
-                    <label for="first-name">First Name</label>
-                    <input type="text" name="firstName" id="first-name" placeholder="Thor" required>
+                    <div>
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="firstName" id="first-name" placeholder="Thor" required minlength="2" maxlength="50">
+                    </div>
+
+                    <div>
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="lastName" id="last-name" placeholder="Odinson" required minlength="2" maxlength="50">
+                    </div>
                 </div>
 
                 <div>
-                    <label for="last-name">Last Name</label>
-                    <input type="text" name="lastName" id="last-name" placeholder="Odinson" required>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="thor@asgard.com" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phoneNumber" id="phone" placeholder="123-456-7890" required minlength="10" maxlength="15" pattern="[0-9+\-\s]+">
+                    </div>
                 </div>
 
                 <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="thor@asgard.com" required>
-                </div>
-
-                <div>
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" name="phoneNumber" id="phone" placeholder="123-456-7890" required>
-                </div>
-
-                <div>
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" required>
-                </div>
-
-                <div>
-                    <label for="confirm-password">Confirm Password</label>
-                    <input type="password" name="confirmPassword" id="confirm-password" required>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required minlength="8" maxlength="60">
+                    </div>
+                    <div>
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="confirmPassword" id="confirm-password" required minlength="8" maxlength="60">
+                    </div>
                 </div>
 
                 <button>Create Account</button>
@@ -74,7 +78,7 @@
 
     </main>
 
-    <!--svg si alea de verificare-->
+    <!--svg-->
 
 </body>
 </html>
