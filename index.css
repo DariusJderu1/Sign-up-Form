@@ -3,6 +3,7 @@
 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,6 +21,8 @@ aside.left-part {
 
     width: 38%;
     height: 100%;
+    
+    flex-shrink: 0;
 
     img.background-image {
 
@@ -75,3 +78,32 @@ aside.left-part {
     
 }
 /* aside */
+
+/* main */
+main.right-part {
+
+    font-family: "Onest", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+
+    p.bold-paragraph {
+
+        padding-left: 70px;
+        padding-right: 70px;
+
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    div.forms {
+
+        align-self: stretch;
+
+        -webkit-box-shadow: 0px 6px 15px 6px #737373; 
+        box-shadow: 0px 6px 15px 6px #737373;
+    }
+}
+/* main */
