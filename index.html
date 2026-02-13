@@ -12,16 +12,53 @@
     <aside class="left-part">
 
         <img src="background-image.jpg" alt="Nature background image">
+
         <div>
             <img src="odin-logo.png" alt="Odin Logo">
             <p>T.O.P.</p>
         </div>
+
         <p>Photo by Halie West on Unsplash</p>
 
     </aside>
 
+    <main class="right-part">
 
+        <form action="https://httpbin.org/post" method="post">
 
+            <div>
+                <label for="first-name">First Name</label>
+                <input type="text" name="firstName" id="first-name" required>
+            </div>
+
+            <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="lastName" id="last-name" required>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phoneNumber" id="phone" required>
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+
+            <div>
+                <label for="confirm-password">Password</label>
+                <input type="password" name="confirmPassword" id="confirm-password" required>
+            </div>
+
+        </form>
+
+    </main>
 
 </body>
 </html>
