@@ -145,7 +145,7 @@ main.right-part {
 
     button {
 
-        margin-top: 20px;
+        margin-top: 30px;
         align-self: flex-start;
 
         width: 280px;
@@ -166,7 +166,7 @@ main.right-part {
 
     p {
 
-        font-size: 1.25rem;
+        font-size: 1.2rem;
     }
 }
 /* main */
