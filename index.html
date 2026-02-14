@@ -38,13 +38,15 @@
 
         <p class="bold-paragraph">You <em>know</em> you want to.</p>
 
-        <div class="forms">
+        <!--svg-->
+
+        <div class="forms-container">
 
             <h1>Sign Up</h1>
 
             <form action="https://httpbin.org/post" method="post">
 
-                <div>
+                <div class="form-part">
                     <div>
                         <label for="first-name">First Name</label>
                         <input type="text" name="firstName" id="first-name" placeholder="Thor" required minlength="2" maxlength="50">
@@ -56,7 +58,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="form-part">
                     <div>
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" placeholder="thor@asgard.com" required>
@@ -67,7 +69,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="form-part">
                     <div>
                         <label for="password">Password</label>
                         <input type="password" name="password" id="password" required minlength="8" maxlength="60">
@@ -88,7 +90,7 @@
 
     </main>
 
-    <!--svg-->
+    
 
 </body>
 </html>

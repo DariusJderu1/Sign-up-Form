@@ -98,12 +98,54 @@ main.right-part {
         font-weight: 600;
     }
 
-    div.forms {
+    div.forms-container {
 
-        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        padding: 30px 60px;
 
         -webkit-box-shadow: 0px 6px 15px 6px #737373; 
         box-shadow: 0px 6px 15px 6px #737373;
+    }
+
+    form {
+
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    div.form-part {
+
+        display: flex;
+        gap: 130px;
+        
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 0.09rem;
+    }
+
+    div.form-part > div {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+
+        width: 330px;
+        height: 38px;
+
+        border-radius: 6px;
+
+        padding-left: 10px;
+        font-size: 1.2rem;;
+    }
+
+    p {
+
+        font-size: 1.25rem;
     }
 }
 /* main */
