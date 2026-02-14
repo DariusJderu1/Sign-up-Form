@@ -143,6 +143,13 @@ main.right-part {
         font-size: 1.2rem;;
     }
 
+    div.input-and-icon {
+
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
     button {
 
         margin-top: 30px;
