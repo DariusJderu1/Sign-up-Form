@@ -1,4 +1,9 @@
 /* prerequisites */
+:root {
+
+    --green-color: #596D48;
+}
+
 * {
 
     margin: 0;
@@ -166,7 +171,7 @@ main.right-part {
         font-size: 1.5rem;
 
         color: white;
-        background-color: #596D48;
+        background-color: var(--green-color);
 
         font-weight: 700;
 
@@ -182,7 +187,7 @@ main.right-part {
     p a {
 
         text-decoration: none;
-        color: #596D48;
+        color: var(--green-color);
         font-weight: 700;
     }
 }
