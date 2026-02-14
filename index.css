@@ -143,6 +143,27 @@ main.right-part {
         font-size: 1.2rem;;
     }
 
+    button {
+
+        margin-top: 20px;
+        align-self: flex-start;
+
+        width: 280px;
+        height: 60px;
+
+        border-radius: 8px;
+        border: none;
+        font-size: 1.5rem;
+
+        color: white;
+        background-color: #596D48;
+
+        font-weight: 700;
+
+        -webkit-box-shadow: 0px 5px 15px -5px #000000; 
+        box-shadow: 0px 5px 15px -5px #000000;
+    }
+
     p {
 
         font-size: 1.25rem;
