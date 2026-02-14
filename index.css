@@ -148,7 +148,15 @@ main.right-part {
         border-radius: 6px;
 
         padding-left: 10px;
-        font-size: 1.2rem;;
+        font-size: 1.2rem;
+
+        border: 2px solid black;
+    }
+
+    input:focus {
+
+        outline: none;
+        border-color: rgb(46, 46, 193);
     }
 
     div.input-and-icon {

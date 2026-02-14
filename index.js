@@ -20,9 +20,17 @@ passwordConfirm.addEventListener("input", () => {
 
     passwordConfirmText = passwordConfirm.value;
 
-    if(passwordConfirmText != passwordText)
-        confirmPasswordParagraph.innerText = "Password did not match";
+    if(passwordConfirmText != passwordText) {
 
-    else 
+        confirmPasswordParagraph.innerText = "Password did not match";
+        passwordConfirm.style.borderColor = "red";
+    }
+        
+
+    else {
+
         confirmPasswordParagraph.innerText = "";
+        passwordConfirm.style.borderColor = "";
+    }
+        
 });
