@@ -158,6 +158,13 @@ main.right-part {
         gap: 5px;
     }
 
+    #password-paragraph, #confirm-password-paragraph {
+
+        color: red;
+        font-size: 0.9rem;
+        text-transform: none;
+    }
+
     button {
 
         margin-top: 20px;
