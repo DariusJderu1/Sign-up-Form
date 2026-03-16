@@ -2,7 +2,7 @@
 
 A static sign-up form page built with HTML, CSS, and vanilla JavaScript. It features a custom user interface, client-side form validation, and real-time password matching feedback.
 
-**Live Demo:** [https://dariusjderu1.github.io/Sign-up-Form/](https://dariusjderu1.github.io/Sign-up-Form/) *(Note: Update this URL once deployed)*
+**Live Demo:** [https://dariusjderu1.github.io/Sign-up-Form/](https://dariusjderu1.github.io/Sign-up-Form/) 
 
 ## Technologies Used
 
